@@ -21,15 +21,7 @@
     <script src="https://www.gstatic.com/firebasejs/ui/2.3.0/firebase-ui-auth__{en}.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/2.3.0/firebase-ui-auth.css" />
     <script>
-    var config = {
-    apiKey: "AIzaSyC5zV5UaxClj8kCIbEu4fF2fuWz2C-ZAvk",
-    authDomain: "train-scheduler-20722.firebaseapp.com",
-    databaseURL: "https://train-scheduler-20722.firebaseio.com",
-    projectId: "train-scheduler-20722",
-    storageBucket: "train-scheduler-20722.appspot.com",
-    messagingSenderId: "187745237012"
-    };
-    firebase.initializeApp(config);
+    var provider = new firebase.auth.GoogleAuthProvider();
     function googleSignin() {
     firebase.auth()
     
