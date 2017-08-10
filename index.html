@@ -4,20 +4,22 @@
     <title>Title</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://use.fontawesome.com/9b186a5162.js"></script>
     <script
     src="http://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous">
     </script>
-
-      <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/2.3.0/firebase-ui-auth__{en}.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/2.3.0/firebase-ui-auth.css" />
   </head>
   <body>
     <div class="jumbotron">
@@ -44,6 +46,8 @@
                   <th>Frequency (min)</th>
                   <th>Next Arrival</th>
                   <th>Minutes Away</th>
+                  <th>Update</th>
+                  <th>Remove</th>
                 </tr>
               </table>
             </div>
@@ -81,7 +85,6 @@
         </div>
       </div>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
     <script src="assets/javascript/app.js"></script>
   </body>
 </html>
